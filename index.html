@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <h2>My Portfolio</h2>
+
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- About Me -->
+    <section id="about" class="hero">
+
+        <div>
+            <h1>Hello, I'm Ayesha</h1>
+
+            <p>
+                I am a BCS student and aspiring web developer.
+                I enjoy creating websites and learning new technologies.
+            </p>
+
+            <a href="#projects" class="btn">View My Projects</a>
+        </div>
+
+    </section>
+
+
+    <!-- Skills -->
+    <section id="skills">
+
+        <h2>My Skills</h2>
+
+        <div class="skills-container">
+            <div>HTML</div>
+            <div>CSS</div>
+            <div>JavaScript</div>
+            <div>Python</div>
+            <div>Flask</div>
+        </div>
+
+    </section>
+
+
+    <!-- Projects -->
+    <section id="projects">
+
+        <h2>My Projects</h2>
+
+        <div class="projects-container">
+
+            <div class="project">
+                <h3>Image Gallery</h3>
+                <p>
+                    A responsive image gallery with lightbox,
+                    next/previous buttons and filters.
+                </p>
+            </div>
+
+            <div class="project">
+                <h3>Calculator</h3>
+                <p>
+                    A calculator built using HTML, CSS and JavaScript.
+                </p>
+            </div>
+
+            <div class="project">
+                <h3>Portfolio Website</h3>
+                <p>
+                    My personal portfolio website.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Resume -->
+    <section id="resume">
+
+        <h2>My Resume</h2>
+
+        <p>
+            You can download my resume here.
+        </p>
+
+        <a href="#" class="btn">Download Resume</a>
+
+    </section>
+
+
+    <!-- Contact -->
+    <section id="contact">
+    <h2>Contact Me</h2>
+
+    <form id="contactForm">
+
+        <input type="text" id="name" placeholder="Your Name" required>
+
+        <input type="email" id="email" placeholder="Your Email" required>
+
+        <textarea id="message" placeholder="Your Message" required></textarea>
+
+        <button type="submit" class="btn">Send Message</button>
+
+    </form>
+
+    <p id="formMessage"></p>
+    <div class="social-links">
+    <a href="#" class="btn">GitHub</a>
+    <a href="#" class="btn">LinkedIn</a>
+</div>
+</section>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 My Portfolio. All Rights Reserved.</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
